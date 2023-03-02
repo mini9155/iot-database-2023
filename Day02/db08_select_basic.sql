@@ -1,4 +1,4 @@
--- 메모장 --
+buytbl-- 메모장 --
 /*
 USE homeplus; (데이터베이스 선택)
 SELECT ALL x 이러면 혼남!
