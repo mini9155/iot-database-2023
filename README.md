@@ -13,6 +13,21 @@
 - SQL 기본
 
 # 3일차 학습
-1. MySQL 학습
+1. MySQL 학습 CRUD
     - SQL 기본
+        - INSERT
+        - SELECT
+        - UPDATE
+        - DELETE
     - SQL 고급
+        - 데이터 형식
+        - 내장함수
+        - JOIN
+# 4일차 학습
+1. MySQL 학습
+    - SQL 고급
+        - JOIN
+        - 테이블/뷰
+        - 인덱스
+2. MySQL 활용
+    - BookRentalshop 쿼리 연습
