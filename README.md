@@ -1,5 +1,7 @@
 # iot-database-2023
 
+[MySQL]
+
 # 1일차 학습
 - Mysql 학습
     - 데이터 베이스 개요
@@ -31,3 +33,7 @@
         - 인덱스
 2. MySQL 활용
     - BookRentalshop 쿼리 연습
+
+# 5일차
+- MySQL 활용
+    - BookRentalshop du
