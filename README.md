@@ -1,6 +1,6 @@
 # iot-database-2023
 
-[MySQL]
+![MySQL]
 
 # 1일차 학습
 - Mysql 학습
