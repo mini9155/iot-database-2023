@@ -1,6 +1,6 @@
 # iot-database-2023
 
-![MySQL]
+![MySQL](https://github.com/mini9155/iot-database-2023/blob/main/Images/Mysql.png?raw=true)
 
 # 1일차 학습
 - Mysql 학습
