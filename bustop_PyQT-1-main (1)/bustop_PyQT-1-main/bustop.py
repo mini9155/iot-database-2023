@@ -30,7 +30,7 @@ class qtApp(QMainWindow):
     timer=QTimer() # DB 내용 변경 시 실시간 반영을 위해 사용할 timer
     def __init__(self):
         super().__init__()
-        uic.loadUi('interface.ui',self) # ui 로드
+        uic.loadUi('/home/pi/Documents/GitHub/iot-database-2023/bustop_PyQT-1-main (1)/bustop_PyQT-1-main/interface.ui',self) # ui 로드
         self.setWindowIcon(QIcon('images/bustopimage.png'))
         self.setWindowTitle('BuSTOP v2')
         self.initUI() #initUI 메소드 호출하여 실행 직후의 statusBar 출력 및 DB 연결
@@ -51,7 +51,7 @@ class qtApp(QMainWindow):
         self.statusBar().showMessage(self.datetime.toString(Qt.DefaultLocaleLongDate))
 
         mydb = mysql.connector.connect(
-            host="localhost",
+            host="210.119.12.69",
             user="root",
             password="12345",
             database="bus"
@@ -157,7 +157,7 @@ class qtApp(QMainWindow):
                 return
 
             self.mydb=mysql.connector.connect(
-                host="localhost",
+                host="210.119.12.69",
                 user="root",
                 password="12345",
                 database="bus"            
@@ -203,7 +203,7 @@ class qtApp(QMainWindow):
                 return
             else:
                 self.mydb=mysql.connector.connect(
-                host="localhost",
+                host="210.119.12.69",
                 user="root",
                 password="12345",
                 database="bus")
@@ -229,7 +229,7 @@ class qtApp(QMainWindow):
     #변경된 DB 내용을 QTableWidget인 BusInfor에 뿌려줌
     def updateTable(self,row):
         mydb=mysql.connector.connect(
-            host="localhost",
+            host="210.119.12.69",
             user="root",
             password="12345",
             database="bus"
